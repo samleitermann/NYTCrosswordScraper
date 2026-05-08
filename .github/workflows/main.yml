@@ -102,9 +102,9 @@ jobs:
           end = "<!-- crossword-graph:end -->"
 
           start_idx = readme.find(start)
-          end_idx = readme.find(end, start_idx if start_idx != -1 else 0)
+          end_idx = readme.find(end, start_idx + len(start)) if start_idx != -1 else -1
 
-          if start_idx != -1 and end_idx != -1 and end_idx > start_idx + len(start):
+          if start_idx != -1 and end_idx != -1 and end_idx >= start_idx + len(start):
               before = readme[:start_idx]
               after = readme[end_idx + len(end):]
               new_readme = before + graph_markdown + after
