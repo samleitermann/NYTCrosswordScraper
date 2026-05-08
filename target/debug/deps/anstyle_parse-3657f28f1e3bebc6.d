@@ -1,0 +1,11 @@
+/home/runner/work/Crossword/Crossword/target/debug/deps/anstyle_parse-3657f28f1e3bebc6.d: /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/lib.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/params.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/state/mod.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/state/definitions.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/state/table.rs
+
+/home/runner/work/Crossword/Crossword/target/debug/deps/libanstyle_parse-3657f28f1e3bebc6.rlib: /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/lib.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/params.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/state/mod.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/state/definitions.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/state/table.rs
+
+/home/runner/work/Crossword/Crossword/target/debug/deps/libanstyle_parse-3657f28f1e3bebc6.rmeta: /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/lib.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/params.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/state/mod.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/state/definitions.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/state/table.rs
+
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/lib.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/params.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/state/mod.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/state/definitions.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-0.2.4/src/state/table.rs:
