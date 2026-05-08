@@ -57,7 +57,10 @@ jobs:
           today = datetime.now(timezone.utc).date().isoformat()
 
           def format_completion_time(seconds: str) -> str:
-              total = int(seconds)
+              try:
+                  total = int(seconds)
+              except (TypeError, ValueError):
+                  return "Invalid recorded time"
               hours, rem = divmod(total, 3600)
               minutes, secs = divmod(rem, 60)
               if hours:
