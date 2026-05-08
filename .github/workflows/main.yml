@@ -47,16 +47,48 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
+          import csv
+          from datetime import datetime, timezone
 
           readme_path = Path("README.md")
-          graph_markdown = """<!-- crossword-graph:start -->
-          ## NYT Crossword Times
+          data_path = Path("data.csv")
 
-          ![NYT Crossword Times](assets/crossword-times.png)
+          last_scraped = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+          today = datetime.now(timezone.utc).date().isoformat()
 
-          _Updated daily by GitHub Actions._
-          <!-- crossword-graph:end -->
-          """
+          def format_completion_time(seconds: str) -> str:
+              total = int(seconds)
+              hours, rem = divmod(total, 3600)
+              minutes, secs = divmod(rem, 60)
+              if hours:
+                  return f"{hours:d}:{minutes:02d}:{secs:02d}"
+              return f"{minutes:d}:{secs:02d}"
+
+          completion_status = "No entry for today"
+          if data_path.exists():
+              with data_path.open(newline="") as f:
+                  reader = csv.DictReader(f)
+                  for row in reader:
+                      if row.get("date") == today:
+                          cheated = (row.get("cheated") or "").strip().lower() == "true"
+                          solve_time = (row.get("solve_time_secs") or "").strip()
+                          if cheated:
+                              completion_status = "Solved with cheats"
+                          elif solve_time:
+                              completion_status = format_completion_time(solve_time)
+                          else:
+                              completion_status = "Not solved yet"
+                          break
+
+          graph_markdown = (
+              "<!-- crossword-graph:start -->\n"
+              "## NYT Crossword Times\n\n"
+              "![NYT Crossword Times](assets/crossword-times.png)\n\n"
+              f"- **Last scraped (UTC):** {last_scraped}\n"
+              f"- **Today’s completion time:** {completion_status}\n\n"
+              "_Updated daily by GitHub Actions._\n"
+              "<!-- crossword-graph:end -->\n"
+          )
 
           if readme_path.exists():
               readme = readme_path.read_text()
@@ -68,7 +100,7 @@ jobs:
 
           if start in readme and end in readme:
               before = readme.split(start)[0]
-              after = readme.split(end)[1]
+              after = readme.split(end, 1)[1]
               new_readme = before + graph_markdown + after
           else:
               new_readme = readme.rstrip() + "\n\n" + graph_markdown + "\n"
