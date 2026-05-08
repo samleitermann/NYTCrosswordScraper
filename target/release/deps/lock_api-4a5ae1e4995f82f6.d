@@ -1,0 +1,10 @@
+/Users/sleitermannlong/Documents/GitHub/crossword-main/target/release/deps/lock_api-4a5ae1e4995f82f6.d: /Users/sleitermannlong/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.12/src/lib.rs /Users/sleitermannlong/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.12/src/mutex.rs /Users/sleitermannlong/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.12/src/remutex.rs /Users/sleitermannlong/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.12/src/rwlock.rs
+
+/Users/sleitermannlong/Documents/GitHub/crossword-main/target/release/deps/liblock_api-4a5ae1e4995f82f6.rlib: /Users/sleitermannlong/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.12/src/lib.rs /Users/sleitermannlong/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.12/src/mutex.rs /Users/sleitermannlong/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.12/src/remutex.rs /Users/sleitermannlong/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.12/src/rwlock.rs
+
+/Users/sleitermannlong/Documents/GitHub/crossword-main/target/release/deps/liblock_api-4a5ae1e4995f82f6.rmeta: /Users/sleitermannlong/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.12/src/lib.rs /Users/sleitermannlong/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.12/src/mutex.rs /Users/sleitermannlong/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.12/src/remutex.rs /Users/sleitermannlong/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.12/src/rwlock.rs
+
+/Users/sleitermannlong/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.12/src/lib.rs:
+/Users/sleitermannlong/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.12/src/mutex.rs:
+/Users/sleitermannlong/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.12/src/remutex.rs:
+/Users/sleitermannlong/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.12/src/rwlock.rs:
