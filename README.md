@@ -14,11 +14,12 @@ This repository contains:
 
 ![NYT Crossword Times](assets/crossword-times.png)
 
-- **Last scraped (UTC):** 2026-06-09 13:31 UTC
-- **Today’s completion time:** 5:48
+- **Last scraped (UTC):** 2026-06-10 14:02 UTC
+- **Today’s completion time:** 6:33
 
 _Updated daily by GitHub Actions._
 <!-- crossword-graph:end -->
+
 
 
 
